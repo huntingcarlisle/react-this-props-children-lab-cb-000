@@ -11,7 +11,6 @@ export default class ThemedDecorations extends React.Component {
       );
     });
     
-    
     return (
       <div className='themeddecorations'>{childrenWithWrapperDiv}</div>
       )
