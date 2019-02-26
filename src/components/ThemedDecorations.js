@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 
 export default class ThemedDecoration extends React.Component {
   render() {
-    return ()
+    return (
+      )
   }
 }
