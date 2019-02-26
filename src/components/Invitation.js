@@ -5,8 +5,10 @@ import ReactDOM from 'react-dom';
 export default class Invitation extends React.Component {
   render() {
     return (
-      <h1>You've been invited!</h1>
-      {this.props.children}
+      <div className='invitation'>
+        <h1>You've been invited!</h1>
+        <div>{this.props.children}</div>
+      </div>
       )
   }
 }
