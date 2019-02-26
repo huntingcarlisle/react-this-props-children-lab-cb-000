@@ -9,3 +9,9 @@ export default class ThemedDecorations extends React.Component {
       )
   }
 }
+
+const childrenWithExtraProp = React.Children.map(this.props.children, child => {
+      return React.cloneElement(child, {
+        isPlaying: child.props.title === currentPlayingTitle
+      });
+    });
