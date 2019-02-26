@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 export default class ThemedDecorations extends React.Component {
   render() {
     return (
-      {this.props.children}
+      <div className='themeddecorations'>{this.props.children}</div>
       )
   }
 }
