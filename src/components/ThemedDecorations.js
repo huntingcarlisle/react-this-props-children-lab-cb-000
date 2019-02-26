@@ -13,7 +13,7 @@ export default class ThemedDecorations extends React.Component {
     
     
     return (
-      <div className='themeddecorations'>{childrenWithExtraProp}</div>
+      <div className='themeddecorations'>{childrenWithWrapperDiv}</div>
       )
   }
 }
