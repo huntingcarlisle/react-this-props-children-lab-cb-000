@@ -1,8 +1,8 @@
-// Code ThemedDecoration Component Here
+// Code ThemedDecorations Component Here
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-export default class ThemedDecoration extends React.Component {
+export default class ThemedDecorations extends React.Component {
   render() {
     return (
       <h1>Title</h1>
