@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 
 export default class Invitation extends React.Component {
   render() {
-    return ()
+    return (
+      )
   }
 }
