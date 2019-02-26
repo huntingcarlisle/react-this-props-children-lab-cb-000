@@ -7,7 +7,7 @@ export default class ThemedDecorations extends React.Component {
     
     const childrenWithWrapperDiv = React.Children.map(this.props.children, child => {
       return (
-        <div className={theme}>{child}</div> 
+        <div className={this.props.theme}>{child}</div> 
       );
     });
     
